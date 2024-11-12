@@ -9,3 +9,4 @@ with open("stud_dict.pkl", "rb") as file:
           print(*stud_dict[i][b], sep='\n' + '')
           print()
       print()
+file.close()
